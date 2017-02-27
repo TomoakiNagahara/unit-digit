@@ -9,8 +9,7 @@
  * @copyright Tomoaki Nagahara All right reserved.
  */
 
-/**
- * Digit
+/** Digit
  *
  * @created   2017-01-19
  * @version   1.0
@@ -20,8 +19,7 @@
  */
 class Digit extends OnePiece
 {
-	/**
-	 * Checking to whether is 64 bit CPU (memory's bit).
+	/** Checking to whether is 64 bit CPU (memory's bit).
 	 *
 	 * @return boolean
 	 */
@@ -30,8 +28,7 @@ class Digit extends OnePiece
 		return intval("9223372036854775807") === 9223372036854775807 ? true: false;
 	}
 
-	/**
-	 * Convert to easy to readable binary string.
+	/** Convert to easy to readable binary string.
 	 *
 	 * @param  integer $int
 	 * @param  integer $bit Number of digits
