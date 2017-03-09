@@ -17,9 +17,14 @@
  * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
  * @copyright Tomoaki Nagahara All right reserved.
  */
-class Digit extends OnePiece
+class Digit
 {
-	/** Checking to whether is 64 bit CPU (memory's bit).
+	/** trait
+	 *
+	 */
+	use OP_CORE;
+
+	/** Checking to whether is 64 bit CPU (bit of memory).
 	 *
 	 * @return boolean
 	 */
